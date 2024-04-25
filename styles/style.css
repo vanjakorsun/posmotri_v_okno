@@ -166,12 +166,12 @@ ol {
 
 .content__list {
   position: relative;
-  margin-top: 16px;
+  margin-top: 22px;
   height: 298px;
   overflow: auto;
 }
 
-.content__list-item:not(:first-child) {
+.content__list-item:not(:last-of-type) {
   margin-block-end: 30px;
 }
 
@@ -292,8 +292,4 @@ ol {
 
 .button:active {
   background-color: #545050;
-}
-
-.input:focus {
-  outline: none;
 }
